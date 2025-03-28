@@ -9,13 +9,13 @@ export function Header() {
     <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <Gavel className="h-6 w-6 text-secondary" />
+          <Gavel className="h-6 w-6 text-primary" />
           <span className="font-serif text-xl font-bold">Lawthority</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link to="/features" className="text-sm font-medium hover:text-secondary">Features</Link>
-          <Link to="/pricing" className="text-sm font-medium hover:text-secondary">Pricing</Link>
-          <Link to="/about" className="text-sm font-medium hover:text-secondary">About</Link>
+          <Link to="/features" className="text-sm font-medium hover:text-primary">Features</Link>
+          <Link to="/pricing" className="text-sm font-medium hover:text-primary">Pricing</Link>
+          <Link to="/about" className="text-sm font-medium hover:text-primary">About</Link>
         </nav>
         <div className="flex items-center gap-4">
           <Link to="/dashboard">

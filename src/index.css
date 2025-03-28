@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
 
 @tailwind base;
@@ -16,13 +15,13 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 222 47% 11%;
+    --primary: 0 73% 37%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 217 91% 60%;
+    --secondary: 0 73% 47%;
     --secondary-foreground: 210 40% 98%;
 
-    --accent: 38 92% 50%;
+    --accent: 0 73% 27%;
     --accent-foreground: 210 40% 98%;
 
     --muted: 210 40% 96%;
@@ -33,18 +32,18 @@
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 222 84% 5%;
+    --ring: 0 73% 37%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 222 47% 11%;
+    --sidebar-background: 0 73% 27%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary: 0 73% 47%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 38 92% 50%;
-    --sidebar-accent-foreground: 222 47% 11%;
-    --sidebar-border: 214 32% 91%;
-    --sidebar-ring: 217 91% 60%;
+    --sidebar-accent: 0 73% 37%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 0 73% 17%;
+    --sidebar-ring: 0 73% 47%;
   }
 
   .dark {
