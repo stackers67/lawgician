@@ -21,7 +21,7 @@ export function HeroSection() {
               </Button>
             </Link>
             <Link to="/demo">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto border-primary-foreground/20 hover:bg-primary-foreground/10 text-primary-foreground">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent border-primary-foreground/20 hover:bg-primary-foreground/10 text-primary-foreground">
                 Book a Demo
               </Button>
             </Link>
